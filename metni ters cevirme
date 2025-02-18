@@ -1,0 +1,8 @@
+metin = input("Lütfen bir metin girin: ")
+
+ters_metin = ""  # Boş bir dize oluşturuyoruz
+
+for i in range(len(metin) - 1, -1, -1):  # Metnin sonundan başına doğru döngü kuruyoruz
+    ters_metin += metin[i]  # Her karakteri ters_metin dizesine ekliyoruz
+
+print("Ters çevrilmiş metin:", ters_metin)
