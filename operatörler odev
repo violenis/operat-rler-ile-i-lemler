@@ -1,0 +1,27 @@
+# Veri tanımlama, burada kullanıcıdan girdi alıyoruz int ile de tam sayıya çeviriyoruz.
+sayi1 = int(input("İlk sayıyı girin: "))
+sayi2 = int(input("İkinci sayıyı girin: "))
+
+# Toplama 
+toplam = sayi1 + sayi2
+print("Toplam:", toplam)
+
+# Çıkarma
+fark = sayi1 - sayi2
+print("Fark:", fark)
+
+# Çarpma
+carpim = sayi1 * sayi2
+print("Çarpım:", carpim)
+
+# Bölme
+bolum = sayi1 / sayi2
+print("Bölüm:", bolum)
+
+# Mod alma
+mod = sayi1 % sayi2
+print("Mod:", mod)
+
+# Üs alma
+us = sayi1 ** sayi2
+print("Üs:", us)
