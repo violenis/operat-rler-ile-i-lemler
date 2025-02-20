@@ -1,3 +1,4 @@
+#for döngüsü ile 1 ve 101 arasındaki çift sayıları ekrana yazdırıyoruz. %2 yazarak ise cift olanları seceriz.
 for sayi in range(1, 101):
     if sayi % 2 == 0:
         print(sayi)
